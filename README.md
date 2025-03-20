@@ -7,7 +7,7 @@ Lidar Point Cloud Toolkit is a command-line tool for processing and visualizing 
 To build the toolkit, use the provided `build.sh` script:
 
 ```sh
-./scripts/build.sh
+./build.sh
 ```
 
 This script compiles the project and places the executable in the `bin/` directory.
@@ -17,7 +17,7 @@ This script compiles the project and places the executable in the `bin/` directo
 Run the toolkit using the `run.sh` script:
 
 ```sh
-./scripts/run.sh --pcd-file-path <path_to_pcd_file> [--visualize-pcd] [--pcd-to-depth]
+./run.sh --pcd-file-path <path_to_pcd_file> [--visualize-pcd] [--pcd-to-depth]
 ```
 
 Alternatively, you can execute the binary directly:
